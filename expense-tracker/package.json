@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Full-stack Expense Tracker — MongoDB, Express, React, Node.js",
   "scripts": {
+    "start": "node server/index.js",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd server && npm run dev",
     "client": "cd client && npm start",
